@@ -1,0 +1,15 @@
+mkdir test
+cd test
+git status
+touch a1.py
+git add a1.py
+git commit -m 'add a1.py'
+
+cat a1.py
+git add a1.py
+
+
+rm a1.py
+git rm a1.py
+git commit -m 'delete'
+
